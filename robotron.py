@@ -135,7 +135,7 @@ class Player():
 
     def update(self):
         self.move()
-        if keyPressed("z"):
+        if keyPressed("m"):
             if clock() > self.lastBulletTime + 30:
                 # add a new bullet to the list of bullets
                 if self.xdir == 0 and self.ydir == 0:
